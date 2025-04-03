@@ -1,64 +1,87 @@
 <html>
-  <head>
-    <img src="C:\Users\CSE\Desktop\img.jpeg"align="right" height="170" width="150">
-            <title> RESUME </title>
-  <style> table, th, td {border:1px solid black;}</style>
-   </head>
- 
- <h3 style="color:blue;"> PERSONAL INFORMATION </h3>
- <p> NAME:Harsh Sharma </p> 
- <p> USN NO: CS24081 </p> 
- <p> EMAIL- harshm.cse24@sbjit.edu.in </p> 
- <p> MOBILE- 8767695122</p>
- <p>LINKEDIN- <a href="https://www.linkedin.com/in/mitakshree-lonare-526a07342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">link</a></p> 
-  <hr>
- <h3 style="color:green;"> EDUCATIONAL INFO </h3>
- <table> 
- <tr> 
- <th> Educational qualification </th>
- <th> marks </th> 
- <th>Institution name</th>
- <th>Year</th>
- </tr> 
- <tr> 
- <td> 10th passed </td>
- <td align="center"> 90% </td>
- <td align="center"> BKVV </td> 
- <td align="center">2022</td>
- </tr>
-  
- <tr> 
- <td> 12th passed </td>
- <td align="center"> 80% </td> 
- <td align="center"> BKVV </td>
- <td align="center">2024</td>
- </td>
- <tr>
-    <td>Btech </td>
-    <td align="center">9.44 SGPA</td>
-    <td align="center">S B Jain</td>
-    <td align="center">2028</td>
- </tr>
- </table>
- <hr>
- <h3 style="color:greenyellow;"> HOBBIES </h3>
- <ul>
-    <li>Playing Cricket</li>
-    <li>Painting</li>
- </ul>
-  
-  <h3 style="color:blueviolet;"> TECHNICAL PROFILE </h3> 
-    <li> Language: C programming, c++, java programming, net technology </li>
-    <li>Operating systems: Windows 2000/xp/windows 7& linux </li>
-    <li> MS office and front page </li>
-    <li> Web technologies: Html, css, javascript, asp, net </li>
-  
-  <h3 style="color:green;">STRUCTURE</h3>
-  <li> Work with positive attitude and contribute towards the healthy functioning of the organisation</li>
-       <li> Self cofidence and great patience </li>
-       <li> Analyzing every angle of a project before working on it</li>
-       <hr>
-       <h3>Place: Nagpur</h3><h3 align="right"> Date: 25/03/2025 </h3>
-       <h3>Sign</h3>
-       <img src="C:\Users\CSE\Desktop\imge.jfif" align="center" height="120" width="120">
-       </html>
+    <head>
+        <title> Scholarship Registration Form</title>
+    </head>
+    <h1>Scholarship Registration form</h1>
+    <body bgcolor="Lightblue">
+        <form><fieldset>
+          <img src="C:\Users\CSE\Desktop\Scholarship-Tata.webp"
+           align="right" height="300" width="300">
+            <legend>
+                <h3>Personal Information:</h3> </legend>
+                <label for="name">Enter your full name:</label>
+                <input type="text" required placeholder="First Name"/>
+                <input type="text" required placeholder="Middle Name"/>
+                <input type="text" required placeholder="Last name"/><br>
+
+                <label for="email">Enter your email:</label>
+                <input type="email" required placeholder="Enter email" /><br>
+
+                <label for="password">Enter your password:</label>
+                <input type="password" required placeholder="Enter Password" /><br>
+
+                <label for="Re-enterPassword">Re-enter your password:</label>
+                <input type="Re-enter Password" required placeholder="Re-enter Password" /><br>
+
+                <label for="dob"> Date of Birth:</label>
+                <input type="date" required /><br>
+
+                <label style="color:black"><b>Gender:</b></label><br>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other<br><br>
+
+                <label for="address">Enter your Address:</label>
+                <input type="textarea" required placeholder="Enter Address"></form><br>
+
+                <label>Select your State:</label>
+                    <div class="state-group">
+                        <select>
+                            <option> --------------------- Select State----------------</option>
+                            <option>Haryana🔥 </option>
+                            <option>Punjab </option>
+                            <option>Delhi </option>
+                            <option>Maharastra </option>
+                            <option>Kerla </option>
+                            </select><br>
+                            <label>Select your Caste:</label>
+                    <div class="Caste">
+                        <select>
+                            <option> --------------------- Select Caste----------------</option>
+                            <option>Hindu </option>
+                            <option>Muslim </option>
+                            <option>Sikh </option>
+                            <option>Sindhi </option>
+                            <option>Marwadi </option>
+                            </select>
+
+                            <legend><h3>Educational info:</h3></legend>
+                            <label>Select your Branch:</label>
+                            <div class="branch-group">
+                                <input type="checkbox" /> MTECH
+                                <input type="checkbox" /> CSE
+                                <input type="checkbox" /> IT
+                                <input type="checkbox" /> ETC
+                                <input type="checkbox" /> Civil
+                                <input type="checkbox" /> Mechanical<br>
+
+                                <label for="ssc"> SSC % marks</label>
+                                <input type="% marks" required placeholder="Enter Marks" /><br>
+                                <label for="hsc">HSC % marks</label>
+                                <input type="% marks" required placeholder="Enter Marks"/><br>
+                                <label for="ssc">B.Tech % marks</label>
+                                <input type="% marks" required placeholder="Enter Marks"/><br>
+
+                                <legend><h3>Upload Documents:</h3></legend>
+                                <label for="photo">Upload photo:</label>
+                                <input type="file" required /><br>
+                                <label type="photo"> Income Certificate:</label>
+                                <input type="file" required /><br>
+                                <label for="photo"> Caste Certificate:</label>
+                                <input type="file" required/><br>
+                                <input type="Submit" value="Submit" />
+                                <input type="Reset" value="Reset" />
+                              </fieldset>
+            </form>
+    </body>
+</html>
